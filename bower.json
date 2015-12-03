@@ -1,0 +1,22 @@
+{
+  "name": "md-radio",
+  "description": "Material Design animated radio input component.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/lukeed/md-radio",
+  "author": "Luke Edwards",
+  "keywords": [
+    "material design",
+    "md",
+    "radio",
+    "animated",
+    "sass",
+    "scss",
+    "css3"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
