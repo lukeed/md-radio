@@ -1,0 +1,87 @@
+/**
+ * MD Radio Input Styles
+ */
+
+@import vars
+@import mixins
+
+.md-radio
+  position: relative
+  display: inline-block
+  font-size: $radio-font-size
+  line-height: 2 * $radio-outer-size - 2
+  cursor: pointer
+
+  &:hover .md-radio--fake > span
+    +transform(scale(0.5))
+    opacity: .5
+
+  input
+    +size(1px)
+    opacity: 0 // Hide input, but leave it available for tabbing
+    // display: none // jk
+
+    &:checked + .md-radio--fake
+      border-color: $radio-active-color
+      +transform(scale(1))
+      > span
+        +transform(scale(1))
+        opacity: 1
+    &:focus + .md-radio--fake > span
+      background-color: darken($radio-active-color, 10)
+      +transform(scale(1))
+      opacity: 1
+
+  &--fake,
+  &--fake > span
+    +transition($radio-transition)
+
+  // basic text label & text wrapper
+  > div
+    line-height: $radio-font-size
+    display: inline-block
+
+  // Native input control and checked events
+  // Outer ring of custom radio
+  &--fake
+    position: relative
+    display: block
+    float: left
+    clear: left
+    margin: 8px
+    +size($radio-outer-size)
+    border: 3px solid $radio-inactive-color
+    border-radius: 50%
+    background-color: $radio-inner-color
+    +transform(scale(0.75))
+
+    // Inner ring of custom radio
+    > span
+      +size($radio-inner-size)
+      +transform(scale(0))
+      display: block
+      margin: ($radio-outer-size - $radio-inner-size)/2
+      border-radius: 50%
+      background-color: $radio-active-color
+      opacity: 0
+
+  // if has extra text ('small' tag)
+  &.has--text
+    > div
+      padding-top: $radio-font-size/2 - 2
+    // extra label text
+    small
+      display: block
+      line-height: 15px
+      color: $radio-text-color
+      opacity: 0.65
+      padding-top: 2px
+
+  // error class added
+  &.with--error
+    > div, small
+      color: $radio-error-color
+    .md-radio--fake
+      border-color: $radio-error-color !important
+    .md-radio--fake > span
+      background-color: $radio-error-color !important
