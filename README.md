@@ -1,5 +1,7 @@
-# md-checkbox
+# md-radio
 > Material Design animated radio input component
+
+![md-radio](demo.gif)
 
 This is the plain HTML version. See [alternate versions](#alternate-versions).
 
