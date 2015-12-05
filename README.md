@@ -22,5 +22,5 @@ Requires you have `node-sass` and/or any other SASS/SCSS-capable build tool inst
 
 If resorting to `node-sass` alone, run:
 ```
-node-sass --output-style compressed src/sass/md-radio.sass md-radio.css
+node-sass --output-style compressed sass/md-radio.sass md-radio.css
 ```
