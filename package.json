@@ -1,0 +1,30 @@
+{
+  "name": "md-radio",
+  "version": "1.0.0",
+  "description": "Material Design animated radio input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukeed/md-radio.git"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "animated",
+    "radio",
+    "input",
+    "md",
+    "css3",
+    "sass",
+    "scss"
+  ],
+  "author": "Luke Edwards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukeed/md-radio/issues"
+  },
+  "homepage": "https://github.com/lukeed/md-radio#readme"
+}
