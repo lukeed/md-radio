@@ -9,6 +9,10 @@ This is the plain HTML version. See [alternate versions](#alternate-versions).
 ```bash
 bower install md-radio
 ```
+or
+```bash
+npm install md-radio
+```
 
 ## Alternate Versions
 
