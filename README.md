@@ -3,6 +3,8 @@
 
 ![md-radio](demo.gif)
 
+[Demo](http://lukeed.github.io/md-radio/)
+
 This is the plain HTML version. See [alternate versions](#alternate-versions).
 
 ## Installation
