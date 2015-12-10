@@ -108,6 +108,43 @@ footer li {
 }
 
 footer p {
-	margin: 40px auto 0;
+	margin: 80px auto 0;
 	font-size: 16px;
+}
+
+@media screen and (max-width: 687px) {
+	header h1 {
+		font-size: 28px;
+		padding-left: 0;
+		padding-right: 0;
+		line-height: 34px;
+	}
+
+	main > div > section {
+		width: 95%;
+		padding: 0;
+	}
+
+	.demo {
+		padding: 5px 18px 10px;
+		margin: 0;
+	}
+
+	.demo,
+	footer li {
+		display: block;
+		width: 100%;
+	}
+
+	footer ul {
+		padding: 0;
+	}
+
+	footer li {
+		padding: 3px 20px;
+	}
+
+	footer p {
+		margin-top: 40px;
+	}
 }
