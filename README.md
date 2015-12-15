@@ -32,3 +32,7 @@ If resorting to `node-sass` alone, run:
 ```
 node-sass --output-style compressed sass/md-radio.sass md-radio.css
 ```
+
+## Related
+
+Check out [md-checkbox](https://github.com/lukeed/md-checkbox)!
