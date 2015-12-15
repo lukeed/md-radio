@@ -1,6 +1,6 @@
 {
   "name": "md-radio",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Material Design animated radio input",
   "main": "index.js",
   "scripts": {
